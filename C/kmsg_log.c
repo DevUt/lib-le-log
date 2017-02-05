@@ -1,3 +1,7 @@
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -65,3 +69,6 @@ int klog(int level, char *msg)
 
 	return ret;
 }
+#ifdef __cplusplus
+}
+#endif

@@ -66,7 +66,6 @@ int klog(int level, char *msg)
           }
 	ret = write(outbuf, buf, strlen(buf) );
 	close(outbuf);
-
 	return ret;
 }
 #ifdef __cplusplus

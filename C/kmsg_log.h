@@ -1,5 +1,5 @@
 #ifdef __cplusplus
-}
+extern "C" {
 #endif
 int klog(int level, char *msg);
 
